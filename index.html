@@ -18,6 +18,7 @@
     <title>Студія</title>
   </head>
   <body>
+    
     <header>
       <div class="container header-container">
         <div class="header-left">
@@ -28,8 +29,8 @@
           </div>
           <nav class="nav-links">
             <ul class="navigation">
-              <li class="navi underline"><a class="menu active" href="./index.html">Студія</a></li>
-              <li class="navi "><a class="menu" href="./portfolio.html">Портфоліо</a></li>
+              <li class="navi "><a class="menu underline active" href="./index.html">Студія</a></li>
+              <li class="navi "><a class="menu " href="./portfolio.html">Портфоліо</a></li>
               <li class="navi"><a class="menu" href="">Контакти</a></li>
             </ul>
           </nav>
@@ -62,7 +63,7 @@
           Ефективні рішення для<br />
           вашого бізнесу
         </h1>
-        <button class="button-1" type="button">Замовити послугу</button>
+        <button class="button-1"  type="button" data-modal-open>Замовити послугу</button>
       </section>
       <section class="section about-us-1">
         <div class="container">
@@ -72,7 +73,7 @@
               <svg class="icon-section-1"  width="70" height="70" >
                 <use href="./images/symbol-defs.svg#icon-anthena"></use>
               </svg>
-              <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="about-us-h3">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="tech-skills">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
@@ -81,7 +82,7 @@
                <svg class="icon-section-1">
                 <use href="./images/symbol-defs.svg#icon-clock"></use>
               </svg>
-              <h3>ПУНКТУАЛЬНІСТЬ</h3>
+              <h3 class="about-us-h3">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="tech-skills">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
@@ -90,7 +91,7 @@
                <svg class="icon-section-1">
                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
               </svg>
-              <h3>ПЛАНУВАННЯ</h3>
+              <h3 class="about-us-h3">ПЛАНУВАННЯ</h3>
               <p class="tech-skills">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
@@ -99,7 +100,7 @@
                <svg class="icon-section-1">
                 <use href="./images/symbol-defs.svg#icon-astronaut"></use>
               </svg>
-              <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <h3 class="about-us-h3">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="tech-skills">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
@@ -282,5 +283,15 @@
                </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>     
+      <div class="modal">
+        <button class="btn-modal" data-modal-close><svg  class="icon-x">
+                <use href="./images/symbol-defs.svg#icon-x"></use>
+              </svg></button>
+        <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, quas!</p> -->
+        
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
