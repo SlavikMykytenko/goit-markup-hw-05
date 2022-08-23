@@ -974,8 +974,8 @@ a:focus .icon-bg-footer {
   overflow: hidden;
 }
 
-.overlay:hover .work-list-overlay {
-  transform: translatex(0);
+.work-list-card:hover .work-list-overlay {
+  transform: translatey(0);
 }
 
 .work-list-overlay {
