@@ -33,8 +33,8 @@ address ul {
 
 /* оформляємо header */
 
-header {
-
+.header-underline {
+    border-bottom: 1px solid #ececec;
   
 }
 
@@ -309,7 +309,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
+
 }
 
 .header-container-1 {
@@ -1044,9 +1044,10 @@ a:focus .icon-bg-footer {
   left: 0;
   width: 100%;
   height: 100%;
+  /* opacity: 1; */
   position: fixed;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: opacity 300ms linear, visibility 300ms linear;
+  transition:  300ms linear,  300ms linear;
 }
 
 /* .backdrop{
